@@ -34,7 +34,7 @@ function App() {
   }, [dispatch]);
   return (
     <div className="app">
-      {!user ? (
+      {user ? (
         <div className="user">
           <div className="fixed__top">
              <Header/>
