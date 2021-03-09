@@ -8,7 +8,7 @@ function Login() {
   };
   return (
     <div className="login">
-      <div className="login__left">
+    
           <div className="login__logo">
         <img
           className="image__logo"
@@ -20,7 +20,6 @@ function Login() {
 
       <Button onClick={signin}>Sign In</Button>
       </div>
-    </div>
   );
 }
 
