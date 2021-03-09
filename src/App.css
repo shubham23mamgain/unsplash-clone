@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+}
+
+.fixed__top{
+  position: sticky;
+  top: 0;
+  z-index:100;
+  background-color: white;
+}
